@@ -1,0 +1,12 @@
+# Python dependencies for the AI4S thin-film MLP mini project.
+#
+# Install with:
+#     pip install -r requirements.txt
+#
+# PyTorch CPU-only (no CUDA needed for this study):
+#     pip install torch==2.14.0+cpu --index-url https://download.pytorch.org/whl/cpu
+#
+numpy>=2.0
+matplotlib>=3.8
+torch>=2.2
+tqdm>=4.66

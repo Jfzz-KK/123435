@@ -1,0 +1,60 @@
+{
+  "seed": 276134,
+  "n_samples": 5000,
+  "n_wavelengths": 41,
+  "thickness_sha256": "b01a114170b65a8f8864079477978dced33ae6d590601486e1fafe6b7bee4331",
+  "spectra_sha256": "55bda16158cadb23606bb7375659421f6da5ec038012910431e503e59ec62ba9",
+  "split_sha256": "9898a922634fd93bdba45225dbe44d506a1b74b896399f1ab4a9a058554d257f",
+  "R_min": 4.9295770318508145e-06,
+  "R_max": 0.6582252694586118,
+  "R_mean": 0.30173640349845193,
+  "config": {
+    "student_id": "2020276134",
+    "n_mod": 34,
+    "lambda_target_nm": 480.0,
+    "target_index": 8,
+    "seed": 276134,
+    "design_seed": 276135,
+    "n_layers": 4,
+    "stack": [
+      "H",
+      "L",
+      "H",
+      "L"
+    ],
+    "n_h": 2.3,
+    "n_l": 1.45,
+    "n_s": 1.52,
+    "d_range_nm": [
+      40.0,
+      180.0
+    ],
+    "wavelength_range_nm": [
+      400.0,
+      800.0
+    ],
+    "wavelength_step_nm": 10.0,
+    "n_wavelengths": 41,
+    "n_samples": 5000,
+    "split": [
+      4000,
+      500,
+      500
+    ],
+    "hidden_sizes": [
+      128,
+      128,
+      64
+    ],
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "n_epochs": 2000,
+    "train_sizes": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "n_candidates": 10000
+  }
+}
